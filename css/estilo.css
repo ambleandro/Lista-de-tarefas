@@ -30,6 +30,8 @@ input {
   padding-left: 5%;
   background: rgb(177, 177, 177);
   border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 button.add {
@@ -64,6 +66,8 @@ main {
   box-shadow: 0 0 20px #434343;
   margin-bottom: 2%;
   cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .item.clicado {
@@ -76,7 +80,7 @@ main {
 }
 
 .item-icone {
-  flex: 10%;
+  flex: 15%;
   /* border: 1px solid orangered; */
   text-align: center;
   font-size: 1.5rem;
@@ -84,7 +88,7 @@ main {
 }
 
 .item-nome {
-  flex: 80%;
+  flex: 75%;
   /* border: 1px solid deeppink; */
   font-size: 16px;
   font-weight: bold;
