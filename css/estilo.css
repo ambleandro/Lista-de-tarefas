@@ -6,12 +6,12 @@ body {
   margin: 0;
   padding: 0;
   font-family:Arial, Helvetica, sans-serif;
-  background: #eeeeee;;
+  background: #232323;;
 }
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 header {
@@ -19,25 +19,26 @@ header {
   flex-flow: row wrap;
   width: 90%;
   align-items: center;
-  /* border: 1px solid red; */
   margin: auto auto;
 }
 
 input {
-  height: 120px;
+  height: 70px;
   font-size: 2rem;
   width: 80%;
   padding-left: 10%;
+  background: rgb(177, 177, 177);
+  border: none;
 }
 
 button.add {
   width: 20%;
   cursor: pointer;
-  background: green;
+  background: rgb(1, 168, 1);
   color: white;
   font-weight: bold;
   border: none;
-  height: 120px;
+  height: 70px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -48,7 +49,7 @@ main {
   width: 90%;
   margin: auto auto;
   /* border: 1px solid blue; */
-  padding-top: 40px;
+  padding-top:30px;
 }
 
 .item {
@@ -56,39 +57,41 @@ main {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background: white;
-  height: 80px;
+  background: rgb(27, 26, 26);
+  height: 50px;
   width: 100%;
-  box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #434343;
   margin-bottom: 2%;
   cursor: pointer;
 }
 
 .item.clicado {
-  background: rgb(177, 255, 177);
+  background: #232323;
 }
 
 .item.clicado .item-nome {
   text-decoration: line-through;
-  color: gray;
+  color: rgb(82, 82, 82);
 }
 
 .item-icone {
-  flex: 20%;
+  flex: 15%;
   /* border: 1px solid orangered; */
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: rgb(82, 158, 251);
 }
 
 .item-nome {
-  flex: 55%;
+  flex: 70%;
   /* border: 1px solid deeppink; */
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
+  color: rgb(82, 158, 251);
 }
 
 .item-botao {
-  flex: 25%;
+  flex: 15%;
   /* border: 1px solid green; */
 }
 
@@ -97,11 +100,11 @@ main {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background: red;
+  background: rgb(203, 1, 1);
   color: white;
   border: none;
   padding: 10px;
-  height: 80px;
+  height: 50px;
   width: 100%;
 }
 
